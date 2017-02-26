@@ -1,1 +1,1 @@
-This project is a 16-Bit computer designed in Logisim
+This project is a 16-bit computer designed in Logisim. The design will feature a program counter, RAM, an ALU, output logic, a control matrix and supporting registers all attached to a 16-bit main bus. The computer will be able to run simple programs coded in assembly.

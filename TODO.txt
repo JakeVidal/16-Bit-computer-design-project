@@ -1,1 +1,4 @@
-Add decrementing and jump-to-value functionality to program counter
+1 - Design ALU circuitry 
+2 - Add ALU register circuitry
+3 - Design RAM circutry
+4 - Add RAM register circuitry
