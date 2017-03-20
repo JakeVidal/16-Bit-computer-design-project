@@ -67,16 +67,40 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <comp lib="6" loc="(135,232)" name="Text">
-      <a name="text" val="Program counter"/>
+    <comp lib="4" loc="(480,150)" name="Register">
+      <a name="label" val="Accumulator register"/>
     </comp>
-    <comp lib="4" loc="(120,260)" name="Counter">
+    <comp lib="4" loc="(120,340)" name="Register">
+      <a name="label" val="Memory access register"/>
+    </comp>
+    <comp lib="4" loc="(480,620)" name="Register">
+      <a name="label" val="Output register"/>
+    </comp>
+    <comp lib="4" loc="(230,720)" name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </comp>
+    <comp lib="4" loc="(120,160)" name="Counter">
       <a name="width" val="16"/>
       <a name="max" val="0xffff"/>
+      <a name="label" val="Program counter"/>
     </comp>
-    <comp lib="6" loc="(101,303)" name="Text">
-      <a name="text" val="RAM"/>
+    <comp lib="6" loc="(93,391)" name="Text">
+      <a name="text" val="RAM for storage"/>
     </comp>
-    <comp lib="4" loc="(230,350)" name="RAM"/>
+    <comp lib="6" loc="(460,253)" name="Text">
+      <a name="text" val="ALU"/>
+    </comp>
+    <comp lib="4" loc="(480,360)" name="Register">
+      <a name="label" val="Input register"/>
+    </comp>
+    <comp lib="6" loc="(98,671)" name="Text">
+      <a name="text" val="ROM for control matrix"/>
+    </comp>
+    <comp lib="4" loc="(230,440)" name="RAM"/>
+    <comp lib="4" loc="(120,610)" name="Register">
+      <a name="label" val="Instruction register"/>
+    </comp>
   </circuit>
 </project>
