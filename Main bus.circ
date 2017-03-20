@@ -67,16 +67,22 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(440,780)" to="(450,780)"/>
-    <wire from="(280,760)" to="(290,760)"/>
-    <wire from="(290,760)" to="(300,760)"/>
     <wire from="(290,790)" to="(450,790)"/>
-    <wire from="(290,760)" to="(290,790)"/>
-    <wire from="(280,810)" to="(320,810)"/>
     <wire from="(440,770)" to="(440,780)"/>
     <wire from="(470,800)" to="(470,810)"/>
     <wire from="(320,770)" to="(320,810)"/>
     <wire from="(320,810)" to="(470,810)"/>
+    <wire from="(440,150)" to="(450,150)"/>
+    <wire from="(440,360)" to="(450,360)"/>
+    <wire from="(440,780)" to="(450,780)"/>
+    <wire from="(480,150)" to="(490,150)"/>
+    <wire from="(480,360)" to="(490,360)"/>
+    <wire from="(280,760)" to="(290,760)"/>
+    <wire from="(290,760)" to="(300,760)"/>
+    <wire from="(80,340)" to="(90,340)"/>
+    <wire from="(80,610)" to="(90,610)"/>
+    <wire from="(290,760)" to="(290,790)"/>
+    <wire from="(280,810)" to="(320,810)"/>
     <comp lib="4" loc="(480,150)" name="Register">
       <a name="label" val="Accumulator register"/>
     </comp>
@@ -86,10 +92,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="4" loc="(120,610)" name="Register">
       <a name="label" val="Instruction register"/>
     </comp>
+    <comp lib="1" loc="(510,150)" name="Controlled Buffer">
+      <a name="width" val="8"/>
+    </comp>
     <comp lib="6" loc="(460,253)" name="Text">
       <a name="text" val="ALU"/>
     </comp>
     <comp lib="5" loc="(450,790)" name="TTY"/>
+    <comp lib="1" loc="(80,610)" name="Controlled Buffer">
+      <a name="width" val="8"/>
+    </comp>
     <comp lib="6" loc="(98,671)" name="Text">
       <a name="text" val="ROM for control matrix"/>
     </comp>
@@ -98,6 +110,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="0" loc="(280,810)" name="Pin">
       <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(440,360)" name="Controlled Buffer">
+      <a name="width" val="8"/>
     </comp>
     <comp lib="4" loc="(120,160)" name="Counter">
       <a name="width" val="16"/>
@@ -120,5 +135,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="Input register"/>
     </comp>
     <comp lib="4" loc="(230,440)" name="RAM"/>
+    <comp lib="1" loc="(440,150)" name="Controlled Buffer">
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="1" loc="(510,360)" name="Controlled Buffer">
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="1" loc="(80,340)" name="Controlled Buffer">
+      <a name="width" val="8"/>
+    </comp>
   </circuit>
 </project>
