@@ -83,66 +83,70 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(80,610)" to="(90,610)"/>
     <wire from="(290,760)" to="(290,790)"/>
     <wire from="(280,810)" to="(320,810)"/>
-    <comp lib="4" loc="(480,150)" name="Register">
-      <a name="label" val="Accumulator register"/>
-    </comp>
-    <comp lib="4" loc="(480,620)" name="Register">
-      <a name="label" val="Output register"/>
-    </comp>
-    <comp lib="4" loc="(120,610)" name="Register">
-      <a name="label" val="Instruction register"/>
-    </comp>
-    <comp lib="1" loc="(510,150)" name="Controlled Buffer">
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="6" loc="(460,253)" name="Text">
-      <a name="text" val="ALU"/>
-    </comp>
-    <comp lib="5" loc="(450,790)" name="TTY"/>
-    <comp lib="1" loc="(80,610)" name="Controlled Buffer">
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="6" loc="(98,671)" name="Text">
-      <a name="text" val="ROM for control matrix"/>
-    </comp>
-    <comp lib="0" loc="(280,760)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
     <comp lib="0" loc="(280,810)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(440,360)" name="Controlled Buffer">
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="4" loc="(120,160)" name="Counter">
+    <comp lib="4" loc="(230,440)" name="RAM"/>
+    <comp lib="4" loc="(480,620)" name="Register">
       <a name="width" val="16"/>
-      <a name="max" val="0xffff"/>
-      <a name="label" val="Program counter"/>
+      <a name="label" val="Output register"/>
     </comp>
-    <comp lib="5" loc="(300,760)" name="Keyboard"/>
     <comp lib="4" loc="(120,340)" name="Register">
+      <a name="width" val="16"/>
       <a name="label" val="Memory access register"/>
+    </comp>
+    <comp lib="1" loc="(440,360)" name="Controlled Buffer">
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="5" loc="(450,790)" name="TTY"/>
+    <comp lib="1" loc="(80,340)" name="Controlled Buffer">
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="4" loc="(480,150)" name="Register">
+      <a name="width" val="16"/>
+      <a name="label" val="Accumulator register"/>
     </comp>
     <comp lib="4" loc="(230,720)" name="ROM">
       <a name="contents">addr/data: 8 8
 0
 </a>
     </comp>
-    <comp lib="6" loc="(93,391)" name="Text">
-      <a name="text" val="RAM for storage"/>
+    <comp lib="6" loc="(460,253)" name="Text">
+      <a name="text" val="ALU"/>
     </comp>
     <comp lib="4" loc="(480,360)" name="Register">
+      <a name="width" val="16"/>
       <a name="label" val="Input register"/>
     </comp>
-    <comp lib="4" loc="(230,440)" name="RAM"/>
-    <comp lib="1" loc="(440,150)" name="Controlled Buffer">
+    <comp lib="1" loc="(80,610)" name="Controlled Buffer">
       <a name="width" val="8"/>
     </comp>
     <comp lib="1" loc="(510,360)" name="Controlled Buffer">
-      <a name="width" val="8"/>
+      <a name="width" val="16"/>
     </comp>
-    <comp lib="1" loc="(80,340)" name="Controlled Buffer">
-      <a name="width" val="8"/>
+    <comp lib="6" loc="(98,671)" name="Text">
+      <a name="text" val="ROM for control matrix"/>
+    </comp>
+    <comp lib="4" loc="(120,610)" name="Register">
+      <a name="label" val="Instruction register"/>
+    </comp>
+    <comp lib="6" loc="(93,391)" name="Text">
+      <a name="text" val="RAM for storage"/>
+    </comp>
+    <comp lib="1" loc="(440,150)" name="Controlled Buffer">
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="1" loc="(510,150)" name="Controlled Buffer">
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="5" loc="(300,760)" name="Keyboard"/>
+    <comp lib="4" loc="(120,160)" name="Counter">
+      <a name="width" val="16"/>
+      <a name="max" val="0xffff"/>
+      <a name="label" val="Program counter"/>
+    </comp>
+    <comp lib="0" loc="(280,760)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
   </circuit>
 </project>
