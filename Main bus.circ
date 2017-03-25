@@ -67,86 +67,152 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(290,790)" to="(450,790)"/>
-    <wire from="(440,770)" to="(440,780)"/>
-    <wire from="(470,800)" to="(470,810)"/>
-    <wire from="(320,770)" to="(320,810)"/>
-    <wire from="(320,810)" to="(470,810)"/>
-    <wire from="(440,150)" to="(450,150)"/>
-    <wire from="(440,360)" to="(450,360)"/>
-    <wire from="(440,780)" to="(450,780)"/>
-    <wire from="(480,150)" to="(490,150)"/>
-    <wire from="(480,360)" to="(490,360)"/>
-    <wire from="(280,760)" to="(290,760)"/>
-    <wire from="(290,760)" to="(300,760)"/>
-    <wire from="(80,340)" to="(90,340)"/>
-    <wire from="(80,610)" to="(90,610)"/>
-    <wire from="(290,760)" to="(290,790)"/>
-    <wire from="(280,810)" to="(320,810)"/>
-    <comp lib="0" loc="(280,810)" name="Pin">
-      <a name="tristate" val="false"/>
+    <wire from="(290,260)" to="(350,260)"/>
+    <wire from="(700,860)" to="(700,870)"/>
+    <wire from="(730,890)" to="(730,900)"/>
+    <wire from="(610,110)" to="(610,120)"/>
+    <wire from="(190,90)" to="(570,90)"/>
+    <wire from="(380,130)" to="(560,130)"/>
+    <wire from="(340,300)" to="(390,300)"/>
+    <wire from="(700,170)" to="(700,240)"/>
+    <wire from="(200,430)" to="(570,430)"/>
+    <wire from="(590,300)" to="(590,370)"/>
+    <wire from="(740,370)" to="(780,370)"/>
+    <wire from="(570,90)" to="(570,120)"/>
+    <wire from="(550,850)" to="(550,880)"/>
+    <wire from="(610,110)" to="(900,110)"/>
+    <wire from="(610,330)" to="(900,330)"/>
+    <wire from="(590,220)" to="(590,300)"/>
+    <wire from="(280,200)" to="(570,200)"/>
+    <wire from="(610,310)" to="(610,330)"/>
+    <wire from="(580,860)" to="(580,900)"/>
+    <wire from="(580,900)" to="(730,900)"/>
+    <wire from="(790,130)" to="(790,170)"/>
+    <wire from="(550,880)" to="(710,880)"/>
+    <wire from="(740,300)" to="(770,300)"/>
+    <wire from="(750,230)" to="(780,230)"/>
+    <wire from="(390,570)" to="(390,610)"/>
+    <wire from="(620,370)" to="(710,370)"/>
+    <wire from="(490,670)" to="(500,670)"/>
+    <wire from="(380,260)" to="(390,260)"/>
+    <wire from="(200,200)" to="(280,200)"/>
+    <wire from="(770,250)" to="(770,300)"/>
+    <wire from="(700,240)" to="(710,240)"/>
+    <wire from="(580,220)" to="(590,220)"/>
+    <wire from="(590,130)" to="(600,130)"/>
+    <wire from="(550,850)" to="(560,850)"/>
+    <wire from="(590,370)" to="(600,370)"/>
+    <wire from="(570,200)" to="(570,210)"/>
+    <wire from="(340,300)" to="(340,370)"/>
+    <wire from="(740,170)" to="(790,170)"/>
+    <wire from="(780,230)" to="(780,370)"/>
+    <wire from="(340,610)" to="(390,610)"/>
+    <wire from="(440,410)" to="(440,420)"/>
+    <wire from="(540,900)" to="(580,900)"/>
+    <wire from="(590,130)" to="(590,220)"/>
+    <wire from="(610,400)" to="(900,400)"/>
+    <wire from="(280,200)" to="(280,420)"/>
+    <wire from="(610,380)" to="(610,400)"/>
+    <wire from="(620,130)" to="(790,130)"/>
+    <wire from="(280,420)" to="(440,420)"/>
+    <wire from="(750,250)" to="(770,250)"/>
+    <wire from="(290,220)" to="(290,260)"/>
+    <wire from="(390,260)" to="(390,300)"/>
+    <wire from="(620,300)" to="(710,300)"/>
+    <wire from="(380,570)" to="(390,570)"/>
+    <wire from="(340,570)" to="(350,570)"/>
+    <wire from="(340,370)" to="(350,370)"/>
+    <wire from="(340,670)" to="(350,670)"/>
+    <wire from="(290,220)" to="(560,220)"/>
+    <wire from="(340,610)" to="(340,670)"/>
+    <wire from="(570,380)" to="(570,430)"/>
+    <wire from="(700,170)" to="(710,170)"/>
+    <wire from="(490,370)" to="(560,370)"/>
+    <wire from="(700,870)" to="(710,870)"/>
+    <wire from="(580,130)" to="(590,130)"/>
+    <wire from="(580,370)" to="(590,370)"/>
+    <wire from="(540,850)" to="(550,850)"/>
+    <wire from="(590,300)" to="(600,300)"/>
+    <comp lib="4" loc="(490,370)" name="RAM">
+      <a name="addrWidth" val="16"/>
+      <a name="dataWidth" val="16"/>
     </comp>
-    <comp lib="4" loc="(230,440)" name="RAM"/>
-    <comp lib="4" loc="(480,620)" name="Register">
-      <a name="width" val="16"/>
-      <a name="label" val="Output register"/>
-    </comp>
-    <comp lib="4" loc="(120,340)" name="Register">
-      <a name="width" val="16"/>
-      <a name="label" val="Memory access register"/>
-    </comp>
-    <comp lib="1" loc="(440,360)" name="Controlled Buffer">
-      <a name="width" val="16"/>
-    </comp>
-    <comp lib="5" loc="(450,790)" name="TTY"/>
-    <comp lib="1" loc="(80,340)" name="Controlled Buffer">
-      <a name="width" val="16"/>
-    </comp>
-    <comp lib="4" loc="(480,150)" name="Register">
-      <a name="width" val="16"/>
-      <a name="label" val="Accumulator register"/>
-    </comp>
-    <comp lib="4" loc="(230,720)" name="ROM">
-      <a name="contents">addr/data: 8 8
-0
-</a>
-    </comp>
-    <comp lib="6" loc="(460,253)" name="Text">
-      <a name="text" val="ALU"/>
-    </comp>
-    <comp lib="4" loc="(480,360)" name="Register">
+    <comp lib="4" loc="(740,370)" name="Register">
       <a name="width" val="16"/>
       <a name="label" val="Input register"/>
     </comp>
-    <comp lib="1" loc="(80,610)" name="Controlled Buffer">
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="1" loc="(510,360)" name="Controlled Buffer">
+    <comp lib="1" loc="(340,570)" name="Controlled Buffer">
       <a name="width" val="16"/>
     </comp>
-    <comp lib="6" loc="(98,671)" name="Text">
+    <comp lib="1" loc="(580,370)" name="Controlled Buffer">
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(540,850)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(620,370)" name="Controlled Buffer">
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="5" loc="(710,880)" name="TTY"/>
+    <comp lib="4" loc="(740,710)" name="Register">
+      <a name="width" val="16"/>
+      <a name="label" val="Output register"/>
+    </comp>
+    <comp lib="4" loc="(740,170)" name="Register">
+      <a name="width" val="16"/>
+      <a name="label" val="Accumulator register"/>
+    </comp>
+    <comp lib="6" loc="(485,756)" name="Text">
       <a name="text" val="ROM for control matrix"/>
     </comp>
-    <comp lib="4" loc="(120,610)" name="Register">
+    <comp lib="4" loc="(380,570)" name="Register">
+      <a name="width" val="16"/>
       <a name="label" val="Instruction register"/>
     </comp>
-    <comp lib="6" loc="(93,391)" name="Text">
-      <a name="text" val="RAM for storage"/>
-    </comp>
-    <comp lib="1" loc="(440,150)" name="Controlled Buffer">
+    <comp lib="1" loc="(560,220)" name="Controlled Buffer">
+      <a name="facing" val="west"/>
       <a name="width" val="16"/>
     </comp>
-    <comp lib="1" loc="(510,150)" name="Controlled Buffer">
-      <a name="width" val="16"/>
-    </comp>
-    <comp lib="5" loc="(300,760)" name="Keyboard"/>
-    <comp lib="4" loc="(120,160)" name="Counter">
+    <comp lib="4" loc="(380,130)" name="Counter">
       <a name="width" val="16"/>
       <a name="max" val="0xffff"/>
       <a name="label" val="Program counter"/>
     </comp>
-    <comp lib="0" loc="(280,760)" name="Pin">
+    <comp lib="4" loc="(740,300)" name="Register">
+      <a name="width" val="16"/>
+      <a name="label" val="Input register"/>
+    </comp>
+    <comp lib="4" loc="(490,670)" name="ROM">
+      <a name="addrWidth" val="16"/>
+      <a name="dataWidth" val="16"/>
+      <a name="contents">addr/data: 16 16
+0
+</a>
+    </comp>
+    <comp lib="1" loc="(520,670)" name="Controlled Buffer">
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="5" loc="(560,850)" name="Keyboard"/>
+    <comp lib="1" loc="(580,130)" name="Controlled Buffer">
+      <a name="width" val="16"/>
+      <a name="control" val="left"/>
+    </comp>
+    <comp lib="4" loc="(380,260)" name="Register">
+      <a name="width" val="16"/>
+      <a name="label" val="Memory access register"/>
+    </comp>
+    <comp lib="6" loc="(732,244)" name="Text">
+      <a name="text" val="ALU"/>
+    </comp>
+    <comp lib="1" loc="(600,130)" name="Controlled Buffer">
+      <a name="facing" val="west"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(540,900)" name="Pin">
       <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(620,300)" name="Controlled Buffer">
+      <a name="width" val="16"/>
     </comp>
   </circuit>
 </project>
