@@ -1,4 +1,3 @@
-1 - Design ALU circuitry 
-2 - Add ALU register circuitry
-3 - Design RAM circutry
-4 - Add RAM register circuitry
+1 - Program opcodes into ROM
+2 - Refine ALU logic
+3 - Refine bus layout
